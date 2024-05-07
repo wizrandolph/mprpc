@@ -1,15 +1,46 @@
 syntax = "proto3";
 package testproto;
 
+message ResultCode
+{
+  int32 errcode = 1;
+  bytes errmsg = 2;
+}
+
 message LoginRequest
 {
-  string name = 1;
-  string pwd = 2;
+  bytes name = 1;
+  bytes pwd = 2;
 }
 
 message LoginResponse
 {
-  int32 errcode = 1;
-  string errmsg = 2;
-  bool success = 3;
+  ResultCode result = 1;
+  bool success = 2;
+}
+
+message GetFriendListRequest
+{
+  uint32 uid = 1;
+}
+
+message User
+{
+  uint32 uid = 1;
+  bytes name = 2;
+  uint32 age = 3;
+  enum Sex 
+  {
+    MALE = 0;
+    FEMALE = 1;
+  };
+  Sex sex = 4;
+}
+
+
+
+message GetFriendListResponse
+{
+  ResultCode result = 1;
+  repeated User friend_list = 2;  // 定义了一个列表类型
 }
