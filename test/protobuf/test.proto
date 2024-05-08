@@ -1,5 +1,9 @@
 syntax = "proto3";
+
 package testproto;
+
+// 通过选项开启rpc服务类和rpc方法
+option cc_generic_services = true;
 
 message ResultCode
 {
@@ -37,10 +41,15 @@ message User
   Sex sex = 4;
 }
 
-
-
 message GetFriendListResponse
 {
   ResultCode result = 1;
   repeated User friend_list = 2;  // 定义了一个列表类型
+}
+
+// 在 protobuf 中定义描述rpc方法的类型
+service UserServiceRpc
+{
+  rpc Login(LoginRequest) returns(LoginResponse);
+  rpc GetFriendList(GetFriendListRequest) returns(GetFriendListResponse);
 }
