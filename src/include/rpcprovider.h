@@ -9,7 +9,7 @@ class RpcProvider
 {
 public:
   // 框架向外提供的用来发布RPC服务的函数接口
-  void NotifyService(google::protobuf::Service *service);
+  void NotifyService(::google::protobuf::Service *service);
   // 启动rpc服务节点，提供rpc远程网络调用服务
   void Run();
-}
+};

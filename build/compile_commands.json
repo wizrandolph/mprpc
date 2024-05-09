@@ -1,0 +1,22 @@
+[
+{
+  "directory": "/home/elowiz/mprpc/build/src",
+  "command": "/usr/bin/g++  -Dmprpc_EXPORTS -I/home/elowiz/mprpc/src/include -I/home/elowiz/mprpc/examples  -g -fPIC   -o CMakeFiles/mprpc.dir/mprpcapplication.cc.o -c /home/elowiz/mprpc/src/mprpcapplication.cc",
+  "file": "/home/elowiz/mprpc/src/mprpcapplication.cc"
+},
+{
+  "directory": "/home/elowiz/mprpc/build/src",
+  "command": "/usr/bin/g++  -Dmprpc_EXPORTS -I/home/elowiz/mprpc/src/include -I/home/elowiz/mprpc/examples  -g -fPIC   -o CMakeFiles/mprpc.dir/rpcprovider.cc.o -c /home/elowiz/mprpc/src/rpcprovider.cc",
+  "file": "/home/elowiz/mprpc/src/rpcprovider.cc"
+},
+{
+  "directory": "/home/elowiz/mprpc/build/examples/callee",
+  "command": "/usr/bin/g++   -I/home/elowiz/mprpc/src/include -I/home/elowiz/mprpc/examples  -g   -o CMakeFiles/provider.dir/userservice.cc.o -c /home/elowiz/mprpc/examples/callee/userservice.cc",
+  "file": "/home/elowiz/mprpc/examples/callee/userservice.cc"
+},
+{
+  "directory": "/home/elowiz/mprpc/build/examples/callee",
+  "command": "/usr/bin/g++   -I/home/elowiz/mprpc/src/include -I/home/elowiz/mprpc/examples  -g   -o CMakeFiles/provider.dir/__/user.pb.cc.o -c /home/elowiz/mprpc/examples/user.pb.cc",
+  "file": "/home/elowiz/mprpc/examples/user.pb.cc"
+}
+]

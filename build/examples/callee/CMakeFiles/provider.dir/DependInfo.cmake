@@ -11,11 +11,13 @@ set(CMAKE_CXX_COMPILER_ID "GNU")
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
-  "../src"
+  "../src/include"
+  "../examples"
   )
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
+  "/home/elowiz/mprpc/build/src/CMakeFiles/mprpc.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

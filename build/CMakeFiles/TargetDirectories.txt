@@ -1,5 +1,8 @@
 /home/elowiz/mprpc/build/CMakeFiles/rebuild_cache.dir
 /home/elowiz/mprpc/build/CMakeFiles/edit_cache.dir
+/home/elowiz/mprpc/build/src/CMakeFiles/rebuild_cache.dir
+/home/elowiz/mprpc/build/src/CMakeFiles/edit_cache.dir
+/home/elowiz/mprpc/build/src/CMakeFiles/mprpc.dir
 /home/elowiz/mprpc/build/examples/CMakeFiles/rebuild_cache.dir
 /home/elowiz/mprpc/build/examples/CMakeFiles/edit_cache.dir
 /home/elowiz/mprpc/build/examples/callee/CMakeFiles/rebuild_cache.dir
